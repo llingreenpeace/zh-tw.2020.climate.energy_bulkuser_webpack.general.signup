@@ -1,0 +1,1129 @@
+@font-face {
+    font-family: PingFangTC;
+    /*src: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/font/PingFangTC-Semibold.ttf);   */
+    src: url(https://cors-anywhere.herokuapp.com/https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/font/PingFangTC-Semibold.ttf);
+}
+
+@font-face {
+    font-family: DoctorEye;
+    /*src: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/font/DOCTEB.TTF);    */
+    src: url(https://cors-anywhere.herokuapp.com/https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/font/DOCTEB.TTF);
+}
+
+/*@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC);*/
+
+body {
+    margin: 0;
+    font-family: PingFangTC, 'Noto Sans TC', sans-serif;
+    font-size: 18px;    
+    text-align: left;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56rem;
+    letter-spacing: 2.74px;
+}
+
+header {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    z-index: 10;
+}
+
+footer {
+    background-color: #46a94c;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 3rem;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2.58;
+}
+
+footer div {
+    padding: 0 15px;
+}
+
+footer .second-div {
+    white-space: nowrap;
+}
+
+main {
+    z-index: 1;
+}
+
+section {
+    overflow-x: hidden;
+}
+
+b, strong {
+    color: #1bbf69;
+}
+
+h1, h2 {
+    font-family: PingFangTC, 'Noto Sans TC', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    /*letter-spacing: 4.26px;*/
+}
+
+#_hj-f5b2a1eb-9b07_feedback_minimized {
+    display: none !important;
+}
+
+.gplogo {
+    width: 228px;
+    height: 24px;
+    object-fit: contain;
+    opacity: 0.75;    
+}
+
+.hide-on-desktop {
+    display: none;
+}
+
+.btn {    
+    min-height: 58px;
+    min-width: 283px;
+    border-radius: 10px;
+    font-family: PingFangTC, 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    background: #1BBF69;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px; 
+    padding: 10px 50px;
+}
+
+.mobile-arrow {
+    width: 36px;
+    height: 12px;
+    object-fit: contain;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.icon-01 {
+    width: 10px;
+    height: 16px;
+    object-fit: contain;
+    margin: 3px 0 -3px 0;
+  }
+
+#mc-form {
+    display: none;
+}
+
+#section-1 {    
+    position: relative;
+    background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-1_1000.jpg);
+    background-position: top left;	
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;  
+    height: 100vh;
+    min-height: 700px;
+    color: #ffffff;  
+    box-sizing: border-box;   
+    overflow: hidden;   
+}
+
+#section-1 h1, h2 {
+    color: #2aec86;    
+    white-space: nowrap;
+}
+
+#section-1 .percent {    
+    font-family: DoctorEye, 'Noto Sans TC', sans-serif;;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 0.16px;
+    color: #1bbf69;
+}
+
+#section-1 .inner-content-50 {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    top: 80px;
+    left: 200px;
+    line-height: 28px;
+    letter-spacing: 2.44px;   
+    display: inline-block; 
+}
+
+#section-1 .inner-content-1 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    bottom: 130px;
+    left: 290px;
+    line-height: 28px;
+    letter-spacing: 2.44px;     
+    display: inline-block;  
+}
+
+#section-1 .inner-container {    
+    position: absolute;
+    top: 0;
+    right: 100px;
+    width: 40%;
+    height: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-1 .inner-content-main {
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#section-1 .progress {
+    width: 85%;
+    font-size: 16px;    
+    padding-top: 50px;
+}
+
+#section-1 .progress-number {
+    color: #83f0b7;
+    text-align: right;
+}
+
+#section-1 .progress-bar {    
+    width: 100%;
+    height: 5px;
+    border-radius: 5.5px;
+    /*background-image: linear-gradient(to right, #b5ddac 50%, #23b267 99%);  */
+}
+
+#section-1 .next-page {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+}
+
+#section-2 {
+    color: #313131;
+    background-color: #e7e9e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 3rem;
+    box-sizing: border-box;
+}
+
+.inner-cta {
+    text-align: center;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 4.26px;    
+}
+
+.inner-cta p {
+    line-height: 1.43;   
+}
+
+#section-2 .color-on-desktop {
+    color: #1bbf69;
+}
+
+#section-2 .island {
+    width: 506px;
+    height: 202px;
+    margin: 10px 0 15px 0;
+    object-fit: contain;
+}
+
+#section-2 .inner-content {
+    width: 100%;
+    max-width: 700px; 
+}
+
+#view-form {
+    width: 465px;
+}
+
+#view-form label {
+    font-size: 15px;
+    display: block;
+    margin: 15px 0 5px 0;
+}
+
+#view-form input, select {
+    font-family: PingFangTC, 'Noto Sans TC', sans-serif;
+    background-color: #e7e9e8;
+    width: 98%;
+    height: 30px;    
+    border-bottom: solid 1px #1bbf69;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+#view-form .checkbox {
+    display: flex;
+    flex-direction: row;    
+}
+
+#view-form .checkbox-div {
+    position: relative;
+    margin-top: 15px;
+}
+  
+#view-form .checkbox-div label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+#view-form .checkbox-div label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    width: 10px;
+    height: 4px;        
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    transform: rotate(-45deg);    
+    opacity: 0;
+}  
+ 
+#view-form .checkbox-div input[type="checkbox"] {
+    visibility: hidden;
+}
+
+#view-form .checkbox-div input[type="checkbox"]:checked + label {
+    background-color: #1BBF69;
+    border-color: #1BBF69;
+}
+  
+#view-form .checkbox-div input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+}
+
+#view-form .checkbox-div .privacy-info {
+    font-size: 13px;
+    width: calc(100% - 40px);
+    margin-left: 40px;
+    margin-top: -30px;
+    line-height: 1.73;
+    letter-spacing: 1.28px;
+}
+
+#view-form .btn-div {
+    text-align: center;
+    margin: 25px 0;
+}
+
+#view-form a {
+    color: #313131;
+}
+
+#view-form .email-suggestion, .error-message {
+    font-size: 15px;
+    color: #f53530;
+}
+
+#view-form .Name-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#view-form .lastName-div {
+    flex-basis: 30%;
+}
+#view-form .firstName-div {
+    flex-basis: 60%;
+}
+
+#section-3 {    
+    position: relative;
+    background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-3_1000.jpg);
+    background-position-x: center;
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;  
+    height: 100vh;
+    color: #ffffff;
+    padding: 5rem 3rem;
+    display: flex;    
+    justify-content: center;    
+    box-sizing: border-box;  
+}
+
+#section-3 h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#section-3 b {
+    color: #83f0b7;
+}
+
+#section-3 .inner-container {
+    line-height: 1.86;
+    max-width: 760px;
+}
+
+#section-3 .next-page {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;    
+    width: 100%;
+    height: 14px;
+}
+
+#section-4 {    
+    position: relative;
+    background-color: #383838;
+    width: 100%;
+    min-height: 100vh;
+    color: #ffffff;
+    padding: 5rem;
+    display: flex;    
+    justify-content: center;
+    align-items: center;  
+    box-sizing: border-box;  
+}
+
+#section-4 {
+    height: auto;
+}
+
+#section-4 .inner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+    width: 100%;
+}
+
+#section-4 .inner-right {        
+    width: 45%;
+    height: 100%;
+    padding: 0 2rem;
+}
+
+#section-4 .inner-left {      
+    width: 55%;
+    height: 100%;
+}
+
+#section-4 .news-img-desktop {
+    width: 100%;
+    max-width: 713px;
+}
+
+#section-4 .news-img-mobile {
+    width: 284px;
+    max-width: 100%;
+    height: 225px;
+    object-fit: contain;
+}
+
+#section-4 .next-page {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;    
+    width: 100%;
+    height: 14px;
+}
+
+#section-4 h2 {
+    color: #ffffff;
+}
+
+#section-5 {    
+    position: relative;
+    background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-5_1000.jpg);
+    background-position-x: center;
+    background-position-y: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;  
+    height: 100vh;
+    color: #ffffff;
+    display: flex;    
+    justify-content: center;   
+    align-items: center; 
+    flex-direction: column;
+    padding: 5rem 3rem;
+    box-sizing: border-box;  
+}
+
+#section-5 b {
+    color: #83f0b7;
+}
+
+#section-5 .next-page {
+    position: absolute;
+    bottom: 3rem;
+}
+
+#section-6 {
+    color: #313131;
+    background-color: #e7e9e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 3rem;
+    box-sizing: border-box;
+}
+
+#section-6 .inner-container {
+    width: 100%;
+    max-width: 700px; 
+}
+
+#section-6 .balance-img {
+    width: 100%;
+    max-width: 435px;
+}
+
+#section-7 {
+    display: none;
+}
+
+#section-7 p {
+    text-align: left;
+}
+
+#thank-you-page {
+    font-family: PingFangTC, 'Noto Sans TC', sans-serif;
+    font-size: 14px;
+    color: #313131;
+    background-color: #e7e9e8;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 3rem;
+    box-sizing: border-box;
+}
+
+#thank-you-page .inner-container {
+    width: 100%;
+    max-width: 562px;     
+}
+
+#thank-you-page .thank-you-img {
+    width: 100%;
+    max-width: 179px;    
+}
+
+#thank-you-page .share-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;    
+}
+
+#thank-you-page .share-div a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+#thank-you-page .inner-logo {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 900px) {
+    #section-1 .hide-on-desktop {
+        display: block;
+    }
+
+    #section-1 .hide-on-mobile {
+        display: none;
+    }
+    
+    header {
+        position: absolute;
+        top: 180px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;        
+    } 
+
+    #section-1 {    
+        background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-1_900.jpg);        
+        height: 1950px;
+    }
+
+    #section-1 .percent {            
+        font-size: 28px;
+    }
+
+    #section-1 .inner-content-50 {
+        top: 350px;
+        left: 160px;
+        border-style: none none solid solid;
+        border-width: 1px;
+        border-color: #929292;
+        padding: 10px 0px 0px 15px;
+    }
+
+    #section-1 .inner-content-50 .hide-on-desktop {
+        display: inline-block;
+    }
+
+    #section-1 .inner-content-1 {        
+        bottom: 150px;
+        left: 450px;
+        border-style: none none solid solid;
+        border-width: 1px;
+        border-color: #929292;
+        padding: 10px 0px 0px 15px; 
+    }
+
+    #section-1 .inner-content-1 .hide-on-desktop {
+        display: inline-block;
+    }
+
+    #section-1 .inner-container {    
+        right: 0;       
+        width: 100%;
+        
+    }
+    
+    #section-1 .inner-content-main {
+        width: 50%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #section-3 {
+        background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-3_800.jpg);         
+        background-position-y: 40%;  
+        padding: 5rem;     
+    }
+
+    #section-4 {
+        padding: 5rem;
+    }
+
+    #section-4 .inner-container {
+        flex-flow: column;
+    }
+
+    #section-4 .inner-right {
+        width: 100%;
+    }
+
+    #section-4 .hide-on-desktop {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    #section-4 .hide-on-mobile {
+        display: none;
+    }
+
+    #section-5 {            
+        background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-5_800.jpg);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #section-1 .inner-content-1 {        
+        bottom: 150px;
+        left: 200px;        
+    }
+}
+
+@media screen and (max-width: 600px) {  
+  
+    .inner-cta p {
+        line-height: 26px;
+        letter-spacing: 2.13px;
+    }    
+    
+    .btn {    
+        min-height: 42px;
+        min-width: 212px;
+    }
+
+    body {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    
+    header {        
+        top: 120px;
+    } 
+    
+    header .gplogo {
+        width: 109px;
+        height: 13px;
+        opacity: 0.75;  
+    }
+
+    footer {        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer div { 
+        width: 100%;
+    }
+
+    footer a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    footer ul {
+        margin: 30px 0;
+    }
+
+    footer li  {
+        list-style-position: inside;
+        border-top: 1px solid #ddd;
+        padding: 5px 0;
+    }
+
+    footer li:last-child {
+        border-bottom: 1px solid #ddd;
+    }
+
+    h1, h2 {
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 2.7px;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }    
+
+    #section-1 {    
+        background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-1_600.jpg);        
+        height: 1300px;
+    }
+
+    #section-1 .progress {
+        display: none;
+    }
+
+    #section-1 .percent {            
+        font-size: 20px;
+    }
+
+    #section-1 .inner-content-50 {
+        top: 250px;
+        left: 90px;
+        padding: 0px 0px 0px 10px;
+        font-size: smaller;
+    }
+
+    #section-1 .inner-content-1 {        
+        bottom: 110px;
+        left: 350px;
+        padding: 0px 0px 0px 10px;
+        font-size: smaller;
+    }
+
+    #section-1 .inner-content-main {
+        width: 80%;
+    }
+
+    #section-1 b, strong {
+        color: #ffffff;
+    }
+
+    #section-1 h2 {
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 1.23px
+    }
+
+    #section-2 {
+        padding: 3rem 1.5rem;
+    }
+    
+    #section-2 .inner-cta {        
+        font-size: 16px;
+        font-weight: 600;
+    }
+    /*
+    #section-2 .inner-cta p:nth-of-type(1) {        
+        font-size: 16px;
+    }
+
+    #section-2  .inner-cta p:nth-of-type(2) {        
+        font-size: 16px;
+    }*/
+
+    #section-2 .inner-content>div:nth-of-type(2) {
+        display: flex;
+        justify-content: center;
+    }
+
+    #section-2 .color-on-desktop {
+        color: #313131;
+    }
+
+    #section-2 .color-on-mobile {
+        color: #1bbf69;
+    }
+
+    #section-2 .hide-on-mobile {
+        display: none;
+    }
+
+    #section-2 .hide-on-desktop {
+        display: block;
+    }
+
+    #section-2 .island {
+        width: 215px;
+        height: 87px;
+        object-fit: contain;
+    }
+
+    #view-form {
+        width: 100%;
+    }
+
+    #view-form input, select {
+        font-size: 15px;
+    }
+
+    #view-form strong {
+        color: #1bbf69;
+    }
+
+    #section-3 {
+        background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-3_600.jpg);  
+        background-position-y: 100;       
+        height: 100vh;   
+        flex-flow: column;
+        justify-content: flex-start;
+        padding: 3rem 1.5rem;
+    }
+
+    #section-3 h2 {
+        color: #ffffff;
+        font-size: 16px;
+    }
+
+    #section-3 .next-page {
+        position: relative;        
+        margin-top: 100px;
+    }
+
+    #section-4 {        
+        padding: 3rem 1.5rem;
+    }
+
+    #section-4 h2 {
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        padding: 0 0 25px 0;
+    }
+
+    #section-4 b {
+        color: #83f0b7;
+    }
+
+    #section-4 .inner-container {     
+        margin-bottom: 40px;
+    }
+
+    #section-5 {            
+        display: none;
+    }
+
+    #section-6 {
+        padding: 3rem 1.5rem;
+    }
+
+    #section-6 .inner-cta p:nth-of-type(1) {        
+        font-size: 16px;
+    }
+
+    #section-6  .inner-cta p:nth-of-type(2) {        
+        font-size: 14px;
+    }
+
+    #section-6 .hide-on-mobile {
+        display: none;
+    }
+
+    #section-6 .hide-on-desktop {
+        display: block;        
+        font-weight: 900;
+        white-space: nowrap;
+    }
+
+    #section-6 .balance-img {
+        width: 100%;
+        max-width: 233px;
+    }
+
+    #section-7 {    
+        position: relative;
+        background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-7_600.jpg);
+        background-position-x: center;
+        background-position-y: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;  
+        height: 1004px;
+        color: #373737;        
+        display: block; 
+        text-align: center;
+        box-sizing: border-box;  
+        padding: 3rem 1.5rem;
+    }
+        
+    #section-7 .inner-container {
+        display: flex;    
+        justify-content: center;
+        flex-flow: column; 
+        line-height: 1.86;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #section-7 h1, h2 {
+        color: #1bbf69;
+    }
+
+    #thank-you-page {
+        padding: 5rem 1.5rem;
+    }
+
+    #thank-you-page .share-div {        
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;  
+        margin: 40px 0 47px 0;  
+    }
+
+    #thank-you-page .line-icon, .fb-icon {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+
+    #thank-you-page .fb-icon {
+        margin-left: 10px;
+    }
+
+    #thank-you-page .line-icon {
+        margin-left: -10px;
+    }
+
+    #thank-you-page .inner-cta {
+        font-size: 16px;    
+    }
+    
+    #thank-you-page .inner-logo {
+        position: absolute;
+        top: 30px;
+        left: 0;    
+        width: 100%;    
+        display: flex;
+        justify-content: center;
+        z-index: 10;        
+    }
+
+    #thank-you-page .gplogo {
+        width: 109px;
+        height: 13px;
+    }
+
+    #thank-you-page .img-div {
+        margin: 10px 0 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #section-1 .inner-content-1 {                
+        left: 70px;
+    }    
+}
+
+@media screen and (max-width: 500px) {
+    header {        
+        top: 100px;
+    } 
+
+    #section-1 {    
+        background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-1_500.jpg);        
+        height: 1084px;
+    }
+
+    #section-1 .inner-content-50 {
+        top: 200px;
+        left: 70px;
+    }
+
+    #section-1 .inner-content-1 {                
+        bottom: 60px;
+        left: 260px;
+    }
+
+    #section-3 {
+        background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-3_500.jpg);    
+        height: 829px; 
+    }
+
+    #section-7 {         
+        background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-7_500.jpg);
+        height: 836px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #section-1 .inner-content-1 {                
+        left: 40px;
+    }
+
+    #section-3 {
+        background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-3_400.jpg);
+        height: 663px; 
+    }
+
+    #section-7 {         
+        background-image: url(https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.energy-bulkuser.signup.mc/img/section-7_400.jpg);
+        height: 669px;
+    }
+}
+
+#page-loading {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 10001;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 1;
+    transition: opacity 1s;
+}
+#page-loading.hide {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#page-loading .lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+#page-loading .lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #6c0;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+#page-loading .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+#page-loading .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+#page-loading .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+#page-loading .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+    0% {transform: scale(0); }
+    100% {transform: scale(1); }
+}
+@keyframes lds-ellipsis3 {
+    0% {transform: scale(1); }
+    100% {transform: scale(0); }
+}
+@keyframes lds-ellipsis2 {
+    0% {transform: translate(0, 0); }
+    100% {transform: translate(24px, 0); }
+}
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}

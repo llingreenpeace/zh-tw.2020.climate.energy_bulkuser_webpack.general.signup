@@ -1,0 +1,29 @@
+{
+  "name": "2020-energy_bulkuser_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "aos": "^2.3.4",
+    "jquery": "^3.5.1",
+    "jquery-validation": "^1.19.2",
+    "mailcheck": "^1.1.1",
+    "progressbar.js": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^5.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "deploy": "yarn run webpack && node mc-deploy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
