@@ -32,7 +32,7 @@ function initProgressBar() {
 function createYearOptions() {
     let currYear = new Date().getFullYear()
     $("#birthYear").append(`<option value="">選擇年份</option>`);
-    for (var i = 0; i < 80; i++) {
+    for (var i = 0; i < 100; i++) {
         let option = `<option value="${currYear-i}-01-01">${currYear-i}</option>`;
         $("#birthYear").append(option);
     }
