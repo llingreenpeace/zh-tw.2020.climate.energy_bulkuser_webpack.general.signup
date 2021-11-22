@@ -6,6 +6,8 @@ import {
 	showFullPageLoading,
 	hideFullPageLoading,
     sendPetitionTracking } from './jquery.mc.form-helper.js';
+import Swiper from 'swiper';
+import 'swiper/swiper-bundle.css';
     
 
 function initProgressBar() {
@@ -217,5 +219,13 @@ $(document).ready(function() {
     $('.submit-btn').on( "click", function(e) {          
         e.preventDefault();        
         beforeSubmit();
+    });
+
+    $('.inner-slick').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
     });
 });

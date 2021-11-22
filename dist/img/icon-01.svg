@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M0 0H375V4929H0z" transform="translate(-323 -4719)"/>
+        <path fill="#46A94C" d="M0 4490H376V4929H0z" transform="translate(-323 -4719)"/>
+        <text fill="#FFF" font-family="simple-line-icons" font-size="16" transform="translate(-323 -4719)">
+            <tspan x="320" y="4734"></tspan>
+        </text>
+    </g>
+</svg>

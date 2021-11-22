@@ -653,6 +653,11 @@ h1, h2 {
         flex-flow: column;
     }
 
+    #section-4 .inner-left {  
+        display: block;
+        width: 100%;
+    }
+
     #section-4 .inner-right {
         width: 100%;
     }
